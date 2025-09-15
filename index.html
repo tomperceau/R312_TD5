@@ -2,11 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
-    <h1 class="bg-blue-600 text-9xl text-center">Hello word !</h1>
+  <body class="min-h-screen flex flex-col items-center" style="background: var(--clr-gray-900); color: var(--clr-white);">
+    <!-- Header -->
+    <header class="w-full flex flex-col items-center pt-6">
+      <span class="font-bold text-lg mb-4">adamkeyes</span>
+      <div class="flex gap-4 mb-4">
+        <a href="#" aria-label="GitHub"><img src="github.svg" alt="" class="w-5 h-5"></a>
+        <a href="#" aria-label="LinkedIn"><img src="linkedin.svg" alt="" class="w-5 h-5"></a>
+        <a href="#" aria-label="Twitter"><img src="twitter.svg" alt="" class="w-5 h-5"></a>
+      </div>
+      <img src="profile.jpg" alt="Adam Keyes" class="w-40 h-40 object-cover rounded mb-6 grayscale" />
+    </header>
   </body>
 </html>
